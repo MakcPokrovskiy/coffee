@@ -1,1 +1,1 @@
-https://makcpokrovskiy.github.io/coffee/public
+https://makcpokrovskiy.github.io/coffee/

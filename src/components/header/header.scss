@@ -1,0 +1,46 @@
+.header{
+    padding: 30px 0 0;
+
+  .container{
+    padding-left: 150px;
+    display: flex;
+    column-gap: 40px;
+    color: #fff;
+    align-items: center;
+  }
+
+  &-logo{
+    &:focus{
+      outline: none;
+    }
+    &:focus-visible{
+      outline: 3px solid #6f4e37;
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
+  }
+}
+
+.menu{
+
+  &-list{
+    display: flex;
+    column-gap: 40px;
+    height: 35px;
+    align-items: flex-end;
+  }
+
+  &-link{
+    &:hover{
+      color: #6f4e37;
+    }
+    &:focus{
+      outline: none;
+    }
+    &:focus-visible{
+      outline: 3px solid #6f4e37;
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
+  }
+}
